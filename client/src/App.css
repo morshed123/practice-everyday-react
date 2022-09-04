@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500&family=Roboto+Slab:wght@100;200;300;400;700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container_nav ul li {
+  padding-left: 12px;
+}
+
+.add_minus_quantity input {
+  max-width: 60px;
+  height: 25px;
+}
+
+.add_minus_quantity i {
+  font-size: 16px;
+  font-weight: 600;
+}
+.product img{
+  height: 100%;
+  width: 100%;
+
+}
+@media only screen and (min-width: 768px) {
+
+  .container_nav ul {
+    padding-left: 5px;
+  }
+}
